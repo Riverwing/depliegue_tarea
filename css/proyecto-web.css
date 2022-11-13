@@ -1,0 +1,88 @@
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+.cabecera{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 25%;
+}
+.menu {
+  width: 75%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  margin: 1em;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.git {
+  float: right;
+}
+
+li a:hover:not(.active) {
+  background-color: #04aaaa;
+}
+
+.active {
+  background-color: #04aaaa;
+}
+
+.central{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("/img/fondo.jpeg");
+  height: 400px;
+  color: antiquewhite;
+ 
+}
+
+.contenedor-articulos{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #333;
+  
+}
+
+.contenedor-articulos div {
+  border-style: solid;
+  border-color: #333;
+  background-color: rgb(248, 239, 239);    
+  width: 33%;
+  height: 50%;
+  
+}
+.footer{
+  position:absolute;
+  bottom:0;
+  background-color: #04aaaa;
+  width: 100%;
+  text-align: end;
+  height: 10%;
+  text-align: center;
+}
+
